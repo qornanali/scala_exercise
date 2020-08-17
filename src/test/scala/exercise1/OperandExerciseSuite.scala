@@ -21,4 +21,20 @@ class OperandExerciseSuite {
   @Test def `and(x, y) given x == false y == false, it should returns false`(): Unit = {
     assert(!and(false, false))
   }
+
+  @Test def `or(x, y) given x == true y == true, it should returns true`(): Unit = {
+    assert(or(true, true))
+  }
+
+  @Test def `or(x, y) given x == false y == true, it should returns true`(): Unit = {
+    assert(or(false, true))
+  }
+
+  @Test def `or(x, y) given x == true y == false, it should returns true`(): Unit = {
+    assert(or(true, false))
+  }
+
+  @Test def `or(x, y) given x == false y == false, it should returns false`(): Unit = {
+    assert(!or(false, false))
+  }
 }
