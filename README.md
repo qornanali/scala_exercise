@@ -1,5 +1,9 @@
 ## Scala Exercise
 
+![validate quality badge](https://github.com/qornanali/scala_exercise/workflows/validate_quality/badge.svg)
+
+---
+
 Author: qornanali
 
 ## Prequisites
