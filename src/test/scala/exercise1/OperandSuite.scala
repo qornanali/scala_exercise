@@ -2,9 +2,9 @@ package exercise1
 
 import org.junit.Test
 
-class OperandExerciseSuite {
+class OperandSuite {
 
-  import exercise1.OperandExercise._
+  import exercise1.Operand._
 
   @Test def `and(x, y) given x == true y == true, it should returns true`(): Unit = {
     assert(and(true, true))
